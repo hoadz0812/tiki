@@ -120,7 +120,6 @@
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
-    justify-content: space-around;
 }
 
 .header-bottom-logo{
@@ -138,7 +137,7 @@
 }
 
 .header-bottom-menu{
-
+    margin: 0 4px;
 }
 
 .header-bottom-menu-link{
@@ -146,4 +145,24 @@
     margin-right: 12px;
     font-size: 11px;
     color: white;
+}
+
+.header-bottom-seller{
+    padding: 0 8px;
+    background-color: #51ADFF;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    margin-left: 354px;
+    text-decoration: none;
+}
+
+.header-bottom-seller-icon{
+    font-size: 12px;
+    margin-right: 4px;
+}
+.header-bottom-seller span{
+    font-size: 12px;
 }
