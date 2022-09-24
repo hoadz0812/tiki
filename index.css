@@ -10,11 +10,10 @@
 
 .header-top{
     height: 66px;
-    width: 1240px;
-    margin: 0 auto;
+    margin: 0 124px;
     padding: 0 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -101,6 +100,8 @@
     width: 110px;
     height: 32px;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 .header-top-cart-icon{
@@ -112,18 +113,20 @@
     font-size: 12px;
     color: white;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .header-bottom{
     height: 34px;
-    width: 1240px;
-    margin: 0 auto;
+    margin: 0 124px;
     padding: 0 15px;
     display: flex;
+    justify-content: space-around;
 }
 
 .header-bottom-logo{
-    width: 190px;
+    width: 180px;
 }
 
 .header-bottom-logo-link{
@@ -138,6 +141,7 @@
 
 .header-bottom-menu{
     margin: 0 4px;
+    width: 756px;
 }
 
 .header-bottom-menu-link{
@@ -148,15 +152,19 @@
 }
 
 .header-bottom-seller{
-    padding: 0 8px;
-    background-color: #51ADFF;
     height: 22px;
+    width: 272px;
     display: flex;
-    align-items: center;
-    border-radius: 10px;
-    color: white;
-    margin-left: 354px;
+    justify-content: flex-end;
+}
+
+.header-bottom-seller-link{
     text-decoration: none;
+    color: white;
+    background-color: #51ADFF;
+    padding: 0 8px;
+    border-radius: 10px;
+    
 }
 
 .header-bottom-seller-icon{
